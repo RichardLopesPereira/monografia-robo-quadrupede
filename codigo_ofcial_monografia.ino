@@ -21,8 +21,8 @@ float angulosAtuais[N_SERVOS] = {90.0, 100.0, 120.0, 110.0, 100.0, 85.0, 70.0, 6
 bool sistemaPronto = false;
 bool pca_ok = false;       // Flag do estado do PCA9685
 
-const char* ssid = "RichardNet";
-const char* password = "underground";
+const char* ssid = "Nome_da_rede_de_Acesso"; //Nome da rede Wifi utilizada
+const char* password = "****";  //Senha de acesso
 
 String inputString = "";
 
